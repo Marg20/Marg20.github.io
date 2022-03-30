@@ -15,7 +15,9 @@ MyLogo.onclick = function() {
 	window.location.replace("index.html");
 }
 
-
+function viewResumeFunction () {
+	window.location.replace("MargPapakostaResume.pdf");
+}
 
 
 

@@ -213,6 +213,7 @@ body {
 
 .coming-soon img {
 	width: 35vw;
+	margin-top: -20vh;
 }
 
 
@@ -336,7 +337,7 @@ body {
 }
 
 .about-hero-text p {
-	font-size: 80px;
+	font-size: 100px;
 	margin: 14vh 0 2vh 0;
 	font-family: 'Zen Tokyo Zoo', cursive;
 }
@@ -435,6 +436,7 @@ body {
 	height: 100vh;
 	color: var(--fontWhite);
 	text-align: center;
+	margin-bottom: 20vh;
 }
 
 .contact-hero-text {
@@ -488,14 +490,13 @@ body {
 
 }
 
-
-
 #contact-hero-marg-cartoon {
 	float: left;
-	height: 40vh;
+	height: 60vh;
 	transform: rotate();
 	border-radius: 25px;
 	border: 2px solid white;
+	margin-top: -20vh;
 }
 
 

@@ -1,6 +1,4 @@
-function viewResumeFunction () {
-	window.location.replace("MargPapakostaResume.pdf");
-}
+
 const WhatsCookinclick = document.getElementById("WhatsCookinApp");
 
 /*WhatsCookinclick.onclick = function() {
