@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="498" height="429" viewBox="0 0 498 429">
+  <defs>
+    <pattern id="pattern" width="1" height="1" viewBox="-102.577 -91.398 371.154 348.795">
+      <image preserveAspectRatio="xMidYMid slice" width="166" height="166" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAAFBklEQVRoge3aaaxdUxQH8F8pIa8o1SpFTK2YqSF8MH0QkWrTGCKCDyjSUpEY4ovGGBKJiCmGShCzVs0iYo6QqukDGpRQBKVUBy2t58Pa2zn39N773n3v3veQ/pOdc87aw1nrrmGvtc9lHdahIxjSoXW3wyQcix2xbaIvxJd4Bk/hmw69v98YgzvwJ7p7aGvwKHYYFE6bYCKWCCZXCka7MQ9jMS7dZyFWpftfMWEQ+K2LcxWMP4Ip6f5njC6N2xqLU98UoZEs2LQB5LcuJiZG1giBYI5g8JI64y9JfXPS83lp7mrhU4OC0fhNMHZeog0XprUSI+rMGVHqH55o09MaS7BVB/ltiLv07NStttsHVAJh76vbwHi1/akPWlmvH4Icj/UxS+xHuT2X+o+r0MvtuDTm2Qp9FoaW+nuN/ghyTLrOqtDHpOvXTebmvm0r9NmVtQcE84Up7FSh/5ToI5vMHZnGLKrQd0n0j9rEY6+wVPv9I7elrTLTH9P6V6E/gixM113UOuxPiT5KY2cflcYsqtDHJnoz/6qL/gjyRboeUKF/m67bN5mb+76r0PdP1wWtMtMfQXKYPaFCz6l5bwRZWKHntZ4zgOjkhrjNAMqBqD3+8ykKkUrkGmR6ovUlaTxfUZuMqTNnQDBBmNgaRQbcShp/Kf5K8yd1lNNeYJqisHoMZ+m5sJqOJ9P9asWPMOiYIEyjW5Sx5VJ3nNpS9y/8oahBJg4Cv00xEtcp6vFmbQ3uU6uxjmIjnISH8Cl+SYwsFonjgzgDw0pzxmCqSNM/EbnTb/hYHAVNVYTYw/AAvkprvqXNJe/OuFFh0z21H3FyC+vvjtcbrLUCZ+N5LE/P92ux4DoSTyhsvFv8SudgV2yaxm2OvdIL3yuNvUbzg7+NcbXC/L7H5RgvtPRuA+FyINkbVwkLuTk9/4OhOAUflCb9jpnVgU0wpcTcjQ2EOQqfKXzkNsVeMhpPl97/mgjHm4nTyhzdqsL9kdZ1ikgAc8d3uEzzwqgRJpde9gpOT4yOEqaR3/EhDi7NO15kwtn3yia6JR4uzf0B16YxMxPtHYrjnPnCaTfsgwBllE8cu8UOXn6eqdDCZiJy5b4X1O7sk4XpdSc+LxCmmTFCkRE4UqiwnUXWcFyEuWp9rdyWY1npfprCHLdQq8GXrX1GPAR3pv4X28h7Q2wlwvf1eAmfKwQoR6lD0/hjhXl3p3HnWtvfhomQnTW+R0cl6AFd2Bd3KzKAexTCvS62gCqOUPj0Ehw9EMz2BptYWzsXWNvUu3CLSG+6RchvuybmCnOYjYvFr7RzYrIRurAnblUI8abIyao4XJS/OdzOwAZt4r0Gb6nv0L1tq3ChOLkso0tselkL72OfTghQxjicKTa5V8UnthzaG0WtBeIgfL866x0uAkPWwhXaoIWh4oTjEM3NpR3YRJhb1sKH6gvaEobgNHHakX/JZaKu7sS3v2NEFpy1cKX+b9B2EDttFmA+3lZscKuEGbWjxt4C95beNU+bfGGy4mx3kdBK3pTGpZfmnGoFblCcHraKExRpyApR0w/tK+NV5E3qYY2Tx93Eh8+soaUihd+8l+/YGo+rzXbHNp3RB3SJwqc32EdxiJATuBkaB4X1RIWYC7Yl6blTf15oGQep9amfRX51oDCV4ThVRKE85hnxL4l/JQ4VZtJsA1yIEweLwVYxHjcJDSwWnxveEOdXGzeZtw7/C/wNOQ4nvpQISSgAAAAASUVORK5CYII="/>
+    </pattern>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_363" data-name="Rectangle 363" width="72.359" height="74.419" transform="translate(-137 100.581)" fill="#fff"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_364" data-name="Rectangle 364" width="57.023" height="55.96"/>
+    </clipPath>
+  </defs>
+  <g id="Mian_key_FOcus" data-name="Mian key FOcus" transform="translate(-711 -29143)">
+    <g id="Group_125" data-name="Group 125" transform="translate(53)">
+      <g id="Ellipse_228" data-name="Ellipse 228" transform="translate(826 29195)" fill="#fff" stroke="#707070" stroke-width="3">
+        <ellipse cx="83" cy="78" rx="83" ry="78" stroke="none"/>
+        <ellipse cx="83" cy="78" rx="81.5" ry="76.5" fill="none"/>
+      </g>
+      <g id="icons8-charity-50_1_" data-name="icons8-charity-50 (1)" transform="translate(658 29373)" stroke="#707070" stroke-width="3" fill="url(#pattern)">
+        <ellipse cx="83" cy="78" rx="83" ry="78" stroke="none"/>
+        <ellipse cx="83" cy="78" rx="81.5" ry="76.5" fill="none"/>
+      </g>
+      <g id="Ellipse_230" data-name="Ellipse 230" transform="translate(990 29373)" fill="#fff" stroke="#707070" stroke-width="3">
+        <ellipse cx="83" cy="78" rx="83" ry="78" stroke="none"/>
+        <ellipse cx="83" cy="78" rx="81.5" ry="76.5" fill="none"/>
+      </g>
+      <path id="Clinics" d="M32.748,17.667l9.6,14.369c-2.884,2.613-6.184,4.787-9.416,5.313a11.427,11.427,0,0,0-.316,2.774c0,2.619,1.527,7.035,5.736,8.458a2.727,2.727,0,0,1,1.44,1.156C44.57,57.584,52.195,63.25,59.5,63.25S75.151,57.1,79.208,49.738a2.692,2.692,0,0,1,1.441-1.156c4.209-1.423,5.735-5.839,5.735-8.458a13.118,13.118,0,0,0-.161-2.033c-3.613-.02-6.955-2.527-9.582-5.98L86.272,17.7C91.369,25.918,94,36.317,94,46.374,94,60,86.074,65.961,73.944,63.8A23.821,23.821,0,0,1,59.5,69a23.811,23.811,0,0,1-14.447-5.2C32.926,65.961,25,60,25,46.374,25,36.306,27.636,25.9,32.748,17.667ZM67.564,50.183c-.006.023-2.067,6.328-8.064,6.328-5.776,0-8.056-6.3-8.064-6.328Zm-13.44-12.1c0-2.228-1.506-4.034-3.361-4.034S47.4,35.857,47.4,38.085s1.507,4.031,3.361,4.031S54.124,40.311,54.124,38.085Zm17.474,0c0,2.225-1.506,4.031-3.361,4.031s-3.361-1.805-3.361-4.031,1.507-4.034,3.361-4.034S71.6,35.857,71.6,38.085ZM85.375,8.625C76.891,2.947,68.145-.037,59.5,0,50.973.038,42.261,3.033,33.625,8.625l11.5,17.25c11.494-3.758,17.316-3.712,28.75,0ZM61.895,4.313h-4.79V9.105H52.313V13.9h4.793v4.793h4.79V13.9h4.793V9.105H61.895Z" transform="translate(1014 29417)" fill="#646464" fill-rule="evenodd"/>
+      <g id="Adoption_Icon" data-name="Adoption Icon" transform="translate(984 29129.008)">
+        <g id="Group_123" data-name="Group 123" clip-path="url(#clip-path)">
+          <path id="Path_1162" data-name="Path 1162" d="M33.165,74.438,9.1,74.48V44.546L36.18,20.6c9.045,7.986,18.09,15.922,27.134,23.905V74.438l-24.062.042V68.493c0-.054.033-2.155,0-3.149a3.01,3.01,0,0,0-1.911-2.634,3.115,3.115,0,0,0-2.2,0,2.928,2.928,0,0,0-1.972,2.529c-.039,1.051,0,3.212,0,3.212Zm12.06-5.987h12.06L57.342,47.2,36.18,28.609l-21.1,18.655V68.451h12.06l.057-2.951A9.045,9.045,0,0,1,39.345,57.07a8.893,8.893,0,0,1,5.879,8.388ZM33.951,44.5h4.456c3.531.051,3.814-2.952,6.817-2.952a2.976,2.976,0,0,1,3.015,2.994,3.274,3.274,0,0,1-1.879,2.984,3.441,3.441,0,0,1,1.879,3,2.947,2.947,0,0,1-3.015,2.994c-3,0-3.286-3.086-6.817-3.035H33.991c-3.531-.051-3.853,3.035-6.856,3.035a2.946,2.946,0,0,1-3.015-2.994,3.441,3.441,0,0,1,1.878-3,3.273,3.273,0,0,1-1.878-2.984,2.977,2.977,0,0,1,3.015-2.994C30.138,41.552,30.421,44.555,33.951,44.5ZM36.18,8.583,72.359,40.535l-3.95,4.433L36.21,16.549,4.007,44.968,0,40.493Z" transform="translate(-137 96.29)" fill="#494949" fill-rule="evenodd"/>
+        </g>
+        <g id="Group_124" data-name="Group 124" transform="translate(-70.523 119.04)" clip-path="url(#clip-path-2)">
+          <path id="Path_1163" data-name="Path 1163" d="M220.689,128.508l-5.429,1.7a1.169,1.169,0,1,1-.72-2.225l5.427-1.7A1.168,1.168,0,1,1,220.689,128.508ZM220,124.5l-8.245-2.332a1.168,1.168,0,1,1,.659-2.24l8.247,2.331A1.168,1.168,0,1,1,220,124.5Zm31.674,5.7-5.429-1.7a1.168,1.168,0,1,1,.719-2.223l5.427,1.7A1.169,1.169,0,1,1,251.672,130.206Zm3.507-8.036-8.247,2.332a1.168,1.168,0,1,1-.659-2.241l8.247-2.331A1.168,1.168,0,1,1,255.179,122.17Zm-11.023-8.221a2.332,2.332,0,1,1,2.376-2.331A2.357,2.357,0,0,1,244.156,113.949Zm4.752-2.331a4.753,4.753,0,1,0-4.752,4.663A4.708,4.708,0,0,0,248.909,111.617Zm-26.135,2.331a2.332,2.332,0,1,1,2.376-2.331A2.357,2.357,0,0,1,222.773,113.949Zm4.752-2.331a4.753,4.753,0,1,0-4.752,4.663A4.709,4.709,0,0,0,227.525,111.617Zm14.151,17.138c-1.3,2.833-5.868,4.27-8.211,1.266-2.345,3.005-6.914,1.564-8.211-1.266a1.185,1.185,0,0,1,2.167-.956c.8,1.739,4.833,3.033,4.857-1.859v-1.175a3.622,3.622,0,0,1-2.521-3.061c0-1.507,1.661-2.183,3.709-2.183s3.711.676,3.711,2.183a3.621,3.621,0,0,1-2.523,3.061v1.175c.021,4.943,4.07,3.574,4.857,1.859A1.184,1.184,0,0,1,241.676,128.755ZM233.465,139.6c-16.853,0-26.136-7.813-26.136-22,0-8.8,3.714-18.717,10.5-28.148,4.149,3.866,5.952,6.349,9.4,11.448a23.062,23.062,0,0,1,12.477-.009c3.4-5.053,5.272-7.7,9.37-11.458,6.713,9.4,10.521,19.551,10.521,28.167C259.6,131.784,250.32,139.6,233.465,139.6Zm15.986-53.629a52.049,52.049,0,0,0-10.8,12.267,26.256,26.256,0,0,0-10.366,0,55.365,55.365,0,0,0-10.8-12.267c-7.292,9.425-12.529,20.843-12.529,31.63,0,13.428,8.072,24.331,28.512,24.331s28.512-10.9,28.512-24.331C261.977,106.924,256.732,95.442,249.451,85.969Z" transform="translate(-204.953 -85.969)" fill-rule="evenodd"/>
+        </g>
+      </g>
+      <text id="Adoptions" transform="translate(899 29170)" font-size="25" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-61.041" y="0">Adoptions</tspan></text>
+      <text id="Donations" transform="translate(741 29566)" font-size="25" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-60.266" y="0">Donations</tspan></text>
+      <text id="Pet_Services" data-name="Pet Services" transform="translate(1076 29566)" font-size="25" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-70.215" y="0">Pet Services</tspan></text>
+    </g>
+    <line id="Line_94" data-name="Line 94" y1="62" x2="44" transform="translate(848.5 29326.5)" fill="none" stroke="#707070" stroke-width="10" stroke-dasharray="10"/>
+    <line id="Line_95" data-name="Line 95" x2="50" y2="62" transform="translate(1031.5 29326.5)" fill="none" stroke="#707070" stroke-width="10" stroke-dasharray="10"/>
+    <line id="Line_96" data-name="Line 96" x2="174" transform="translate(873 29482.5)" fill="none" stroke="#707070" stroke-width="10" stroke-dasharray="10"/>
+  </g>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="379" height="118" viewBox="0 0 379 118">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1092a0"/>
+      <stop offset="1" stop-color="#084950"/>
+    </linearGradient>
+    <filter id="Rectangle_102" x="0" y="0" width="379" height="118" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+    </filter>
+    <filter id="Rectangle_102-2" x="0" y="0" width="379" height="118" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-2"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_71" data-name="Group 71" transform="translate(-742 -2561)">
+    <g data-type="innerShadowGroup">
+      <g transform="matrix(1, 0, 0, 1, 742, 2561)" filter="url(#Rectangle_102)">
+        <g id="Rectangle_102-3" data-name="Rectangle 102" transform="translate(9 6)" stroke="#707070" stroke-width="1" fill="url(#linear-gradient)">
+          <rect width="361" height="100" rx="50" stroke="none"/>
+          <rect x="0.5" y="0.5" width="360" height="99" rx="49.5" fill="none"/>
+        </g>
+      </g>
+      <rect id="Rectangle_102-4" data-name="Rectangle 102" width="361" height="100" rx="50" transform="translate(751 2567)" fill="url(#linear-gradient)"/>
+      <g transform="matrix(1, 0, 0, 1, 742, 2561)" filter="url(#Rectangle_102-2)">
+        <rect id="Rectangle_102-5" data-name="Rectangle 102" width="361" height="100" rx="50" transform="translate(9 6)" fill="#fff"/>
+      </g>
+      <g id="Rectangle_102-6" data-name="Rectangle 102" transform="translate(751 2567)" fill="none" stroke="#707070" stroke-width="1">
+        <rect width="361" height="100" rx="50" stroke="none"/>
+        <rect x="0.5" y="0.5" width="360" height="99" rx="49.5" fill="none"/>
+      </g>
+    </g>
+    <text id="VIEW_RESUME_" data-name="VIEW RESUME     " transform="translate(829 2598)" fill="#fff" font-size="30" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="31" xml:space="preserve">VIEW RESUME     </tspan></text>
+  </g>
+</svg>

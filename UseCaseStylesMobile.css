@@ -1,0 +1,201 @@
+/* Variables */
+
+:root {
+	--backgroundColor: #000000; 	/*black*/
+	--transparentBlack: 0,0,0,0.5;
+	--fontWhite: white;
+	--midGray: #4e4e4e;
+	--darkGray: #282828;
+	--burntOrange: #C85E38;
+}
+
+
+@font-face {
+	font-family: Prata;
+	src: url(fonts/Prata/Prata-Regular.ttf);
+}
+@font-face {
+	font-family: 'Playfair Display', serif;
+}
+@font-face {
+	font-family: 'Suranna', serif;
+}
+@font-face {
+	font-family: 'Zen Tokyo Zoo', cursive;
+}
+
+
+/* Use Case */ 
+
+.usecase-hero-hsu {
+	background-image: url("images/HSU/HSU_Hero.svg");
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	width: 100vw;
+	height: 100vh;
+	color: var(--fontWhite);
+	text-align: center;
+}
+
+.usecase-hero-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 3em;
+	height: 60vh;	
+}
+
+.usecase-hero-text img {
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 15vh;
+	cursor: pointer;
+}
+
+.usecase-hero-text p {
+	font-size: 60px;
+	margin-bottom: 2vh;
+	font-family: 'Zen Tokyo Zoo', cursive;
+}
+
+
+
+.usecase-container {
+	width: 100vw;
+	background-color: var(--fontWhite);
+	height: auto;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.usecase-title {
+	font-family: 'Playfair Display', serif;
+	font-size: 40px;
+	font-weight: bold;
+	width: 100vw;
+	text-align: center;
+	margin: 20vh 5vw 10vh 5vw;
+}
+
+.usecase-title-2 {
+	font-family: segoe ui, sans serif;
+	font-size: 40px;
+	font-weight: bold;
+	width: 100vw;
+	max-width: 1200px;
+	text-align: left;
+	padding: 20vh 5vw 0 5vw;
+}
+
+.usecase-title-3 {
+	font-family: 'Playfair Display', serif;
+	font-size: 60px;
+	font-weight: ;
+	font-family: 'Zen Tokyo Zoo', cursive;
+	width: 100vw;
+	text-align: center;
+	margin: 20vh 5vw 10vh 5vw;
+}
+
+
+.usecase-image {
+	margin: 5vh auto;
+	width: 80vw;
+	text-align: center;
+}
+
+.usecase-image img {
+	max-width: 80vw;
+}
+
+.usecase-caption {
+	font-family: segoe ui, sans serif;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+
+.usecase-text-section-container {
+	width: 100vw;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 10vw;
+	max-width: 1200px;
+	margin: 10vh 0;
+}
+.usecase-text-section {
+	
+}
+
+.usecase-text-section-title {
+	font-family: 'Playfair Display', serif;
+	font-size: 30px;
+	font-weight: ;
+	max-width: 400px;
+	width: 35vw;
+	text-align: left;
+	margin-left: 5vw;
+}
+
+.usecase-text-section-text {
+	font-family: segoe ui, sans serif;
+	font-size: 18px;
+	max-width: 800px;
+	width: 90vw;
+	margin: 0 2vw 0 3vw;
+}
+
+.usecase-text-section-text p {
+	font-size: 18px;
+	font-style: italic;
+	margin: 5vh 3vw 0 3vw;
+	text-align: center;
+}
+
+.usecase-text-section-text ul {
+	margin: 5vh 3vw;
+}
+
+.usecase-text-section-text a,
+.usecase-text-section-text a:hover,
+.usecase-text-section-text a:visited {
+	color: var(--burntOrange);
+}
+
+.usecase-image video {
+	width: 80vw;
+	max-width: 800px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

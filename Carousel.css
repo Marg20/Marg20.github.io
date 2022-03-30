@@ -1,0 +1,89 @@
+:root {
+	--backgroundColor: #000000; 	/*black*/
+	--transparentBlack: 0,0,0,0.5;
+	--fontWhite: white;
+	--midGray: #4e4e4e;
+	--darkGray: #282828;
+	--burntOrange: #C85E38;
+}
+
+
+
+.carousel {
+  align-items: center;
+  justify-content: space-between;
+  perspective: 100rem;
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 10vh 0 20vh;
+}
+.carousel__cards {
+  position: relative;
+  width: 25rem;
+  height: 20rem;
+  transform-style: preserve-3d;
+  transform: translateZ(-30rem);
+  transition: transform 0.3s ease-in;
+}
+
+.carousel__card {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border: 2px solid white;
+  border-radius: 0.2rem;
+  font-size: 3em;
+  font-weight: 700;
+}
+
+.carousel__img {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel__card:nth-child(1) {
+  transform: rotateY(0deg) translateZ(30rem);
+}
+.carousel__card:nth-child(2) {
+  transform: rotateY(45deg) translateZ(30rem);
+}
+.carousel__card:nth-child(3) {
+  transform: rotateY(90deg) translateZ(30rem);
+}
+.carousel__card:nth-child(4) {
+  transform: rotateY(135deg) translateZ(30rem);
+}
+.carousel__card:nth-child(5) {
+  transform: rotateY(180deg) translateZ(30rem);
+}
+.carousel__card:nth-child(6) {
+  transform: rotateY(225deg) translateZ(30rem);
+}
+.carousel__card:nth-child(7) {
+  transform: rotateY(270deg) translateZ(30rem);
+}
+.carousel__card:nth-child(8) {
+  transform: rotateY(315deg) translateZ(30rem);
+}
+
+.carousel__btn {
+  outline: none;
+  border: none;
+  border-radius: 0.2rem;
+  background: var(--darkGray);
+  padding: 0.5em 1em;
+  font-size: 1.2em;
+  font-weight: 500;
+  color: #ffffff;
+  cursor: pointer;
+  margin: 0 2rem;
+  margin-top: 20px;
+}
+
+.carousel__btn:hover {
+  transform: scale(1.04);
+  background: var(--midGray);
+}

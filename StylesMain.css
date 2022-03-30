@@ -1,0 +1,508 @@
+/* Variables */
+
+:root {
+	--backgroundColor: #000000; 	/*black*/
+	--transparentBlack: 0,0,0,0.5;
+	--fontWhite: white;
+	--midGray: #4e4e4e;
+	--darkGray: #282828;
+	--burntOrange: #C85E38;
+}
+/* FONTS */
+
+
+
+
+
+@font-face {
+	font-family: Prata;
+	src: url(fonts/Prata/Prata-Regular.ttf);
+}
+@font-face {
+	font-family: 'Playfair Display', serif;
+}
+@font-face {
+	font-family: 'Suranna', serif;
+}
+@font-face {
+	font-family: 'Zen Tokyo Zoo', cursive;
+}
+
+body {
+	background-color: var(--backgroundColor);
+	overflow-x: hidden;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/* NAVIGATION */
+
+.nav {
+	position: absolute;
+	top: 3vh;
+	left: 3vh;
+	font-family: Prata;
+	font-size: 1.5em;
+	color: var(--fontWhite);
+	width: 50vw;
+}
+
+.nav ul {
+	list-style-type: none; 
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	
+}
+
+.nav li {
+	margin-left: 2vw;
+	transform: scale(1);
+	transition: .25s ease;
+}
+
+.nav li:hover {
+	transform: scale(1.2);
+
+}
+
+.nav a,
+.nav a:visited,
+.nav a:hover {
+	text-decoration: none;
+	color: var(--fontWhite);
+}
+
+
+
+
+/* HOMEPAGE */ 
+
+.home-hero {
+	background-image: url("images/HomeHero.svg");
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	width: 100vw;
+	height: 100vh;
+	color: var(--fontWhite);
+	text-align: center;
+}
+
+.home-hero-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 3em;
+	height: 60vh;	
+}
+
+.home-hero-text img {
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 15vh;
+	cursor: pointer;
+}
+
+.home-hero-text p {
+	font-size: 60px;
+	margin-bottom: 2vh;
+	font-family: 'Zen Tokyo Zoo', cursive;
+}
+
+.home-hero-list {
+	font-size: 25px;
+}
+
+.home-hero-list span {
+	margin: .5em;
+}
+
+
+
+/*  SECTION 2  */
+
+.section-2 {
+	background-color: var(--midGray);
+	padding: 8vh 2vw;
+	height: auto;
+	width: 100vw;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+
+}
+
+.work-card {
+	height: 80vh;
+	width: 40vw;
+	margin: 6vh 2vw;
+	overflow: hidden;
+}
+
+.work-card-content-top {
+	color: var(--fontWhite);
+	background-color: rgba(var(--transparentBlack));
+	font-family: segoe ui, sans serif;
+	padding: 1em;
+	width: 40vw;
+	transform: translateY(-65%);
+	transition: transform 500ms ease-in-out;
+}
+
+.work-card-content-top h3 {
+	margin-top: 1em;
+}
+
+.work-card-content-top h4 {
+	margin-bottom: .5em;
+}
+
+.work-card:hover .work-card-content-top {
+	transform: translateY(0);
+
+}
+
+.work-card-content-bottom {
+	color: var(--fontWhite);
+	background-color: rgba(var(--transparentBlack));
+	font-family: segoe ui, sans serif;
+	padding: 1em;
+}
+
+.work-card-content-bottom h3 {
+	margin-bottom: 1em;
+}
+
+
+#WhatsCookinApp {
+	background-image: url("images/WhatsCookinApp.svg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 40vw;
+	cursor: ;
+}
+
+#HSU {
+	background-image: url("images/PetsOnLaptop.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 40vw;
+	cursor: pointer;
+}
+
+#HappyDogApp {
+	background-image: url("images/HappyDogApp.svg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 40vw;
+	cursor: ;
+}
+
+#FTCSmart {
+	background-image: url("images/FTCSmart.svg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 40vw;
+	cursor: ;
+}
+
+.coming-soon img {
+	width: 35vw;
+}
+
+
+
+/*  HOME ABOUT ME  */
+
+.home-about-me {
+	width: 100vw;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding: 8vh 3vh;
+	border-top: 1px solid var(--darkGray);
+}
+
+.home-about-me-chunk1 {
+	width: 30vw;
+	color: var(--fontWhite);
+}
+
+.home-about-me-chunk1 span {
+	font-family: Zen Tokyo Zoo;
+	font-size: 60px;
+}
+
+.home-about-me-chunk1 p {
+	font-size: 25px;
+	font-family: segoe ui, sans serif;
+	line-height: 2;
+	margin: 8vh 0 6vh 0;
+}
+
+.home-about-me-chunk1 button {
+	background-color: var(--backgroundColor);
+	border: 3px solid var(--fontWhite);
+	color: var(--fontWhite);
+	padding: 1em;
+	font-size: 2em;
+	cursor: pointer;
+}
+
+.home-about-me-chunk1 button:hover {
+	background-color: var(--fontWhite);
+	border: 3px solid var(--backgroundColor);
+	color: var(--backgroundColor);
+	padding: 1em;
+	font-size: 2em;
+	cursor: pointer;
+}
+
+.home-about-me-chunk2 img {
+	width: 35vw;
+}
+
+
+
+
+/*  PAGE-FOOTER  */
+
+.page-footer {
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	padding: 4vh;
+	background-color: var(--darkGray);
+	border-top: 1px solid var(--midGray);
+}
+
+.page-footer span {
+	padding: 1em;
+}
+
+.page-footer img {
+	transform: scale(1);
+	transition: .25s ease; 
+}
+
+.page-footer span:hover img {
+	transform: scale(1.2);
+}
+
+
+
+
+
+
+/*  ABOUT */
+
+.about-hero {
+	background-image: url("images/AboutHero.svg");
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	width: 100vw;
+	height: 100vh;
+	color: var(--fontWhite);
+	text-align: center;
+	border-bottom: 1px solid white;
+}
+
+#about-hero-marg-cartoon {
+	float: left;
+	height: 40vh;
+	border-bottom: 1px solid white;
+}
+
+
+.about-hero-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 3em;
+	height: 60vh;	
+}
+
+.about-hero-text img {
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 15vh;
+	cursor: pointer;
+}
+
+.about-hero-text p {
+	font-size: 80px;
+	margin: 14vh 0 2vh 0;
+	font-family: 'Zen Tokyo Zoo', cursive;
+}
+
+.about-welcome {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	gap: 10vh;
+	width: 50vw;
+	color: var(--fontWhite);
+	margin: 10vh auto;
+	
+}
+
+.about-welcome-h1 {
+	font-family: 'Zen Tokyo Zoo', cursive;
+	font-size: 60px;
+	
+}
+
+.about-welcome p {
+	font-size: 25px;
+	font-family: segoe ui, sans serif;
+	text-align: center;
+}
+
+.about-welcome img {
+	width: 25vw;
+}
+
+.about-welcome-view-resume button {
+	font-family: segoe ui, sans serif;
+	cursor: pointer;
+	background-color: var(--backgroundColor);
+	border: 3px solid var(--fontWhite);
+	color: var(--fontWhite);
+	padding: 1rem 2rem;
+	font-size: 3em;
+	cursor: pointer;
+}
+
+.about-welcome-view-resume button:hover {
+	font-family: segoe ui, sans serif;
+	cursor: pointer;
+	background-color: var(--fontWhite);
+	border: 3px solid var(--fontWhite);
+	color: var(--backgroundColor);
+	padding: 1rem 2rem;
+	font-size: 3rem;
+	cursor: pointer;
+}
+
+.about-me-about-me {
+	width: 100vw;
+	padding: 10rem;
+	margin: 10vh 0;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-evenly;
+	gap: 5vh;
+	color: var(--fontWhite);
+}
+
+.about-me-about-me-s1 {
+	font-family: 'Zen Tokyo Zoo', cursive;
+	font-size: 60px;
+}
+
+.about-me-about-me-s2 p {
+	width: 50vw;
+	font-size: 20px;
+	font-family: segoe ui, sans serif;
+	margin-bottom: 2vh;
+}
+
+.about-me-about-me-s2-quote {
+	width: 30vw;
+	padding: 0 5vw ;
+	font-size: 20px;
+	font-family: segoe ui, sans serif;
+	font-style: italic;
+
+}
+
+
+
+
+
+/* CONTACT */
+
+
+.contact-hero {
+	width: 100vw;
+	height: 100vh;
+	color: var(--fontWhite);
+	text-align: center;
+}
+
+.contact-hero-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 3em;
+	height: 60vh;	
+	margin-bottom: 20vh;
+}
+
+.contact-hero-text img {
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 15vh;
+	cursor: pointer;
+}
+
+.contact-hero-list-s1 p {
+	font-size: 60px;
+	font-family: 'Zen Tokyo Zoo', cursive;
+	margin-bottom: 10vh;
+}
+
+
+.contact-hero-list {
+	font-size: 25px;
+	margin-top: 10vh;
+	font-family: segoe ui, sans serif; 
+	display: flex;
+	flex-direction: row;
+	max-width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	gap: 10vw;
+}
+
+.contact-hero-list-s1 {
+	width: 45vw;
+}
+
+.contact-hero-list-s2 {
+	width: 45vw;
+}
+
+#contact-email a {
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 25px;
+	color: var(--fontWhite);
+
+}
+
+
+
+#contact-hero-marg-cartoon {
+	float: left;
+	height: 40vh;
+	transform: rotate();
+	border-radius: 25px;
+	border: 2px solid white;
+}
+
+
+
+
+
+
+
+
+

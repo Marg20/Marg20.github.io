@@ -1,0 +1,484 @@
+/* Variables */
+
+:root {
+	--backgroundColor: #000000; 	/*black*/
+	--transparentBlack: 0,0,0,0.5;
+	--fontWhite: white;
+	--midGray: #4e4e4e;
+	--darkGray: #282828;
+	--burntOrange: #C85E38;
+}
+
+@font-face {
+	font-family: Prata;
+	src: url(fonts/Prata/Prata-Regular.ttf);
+}
+@font-face {
+	font-family: 'Playfair Display', serif;
+}
+@font-face {
+	font-family: 'Suranna', serif;
+}
+@font-face {
+	font-family: 'Zen Tokyo Zoo', cursive;
+}
+
+body {
+	background-color: var(--backgroundColor);
+	overflow-x: hidden;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+/* NAVIGATION */
+
+.nav {
+	position: absolute;
+	top: 3vh;
+	left: ;
+	font-family: ;
+	font-size: 1.5em;
+	color: var(--fontWhite);
+	width: 100vw;
+}
+
+.nav ul {
+	list-style-type: none; 
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	
+}
+
+.nav li {
+
+}
+
+.nav li:hover {
+	transform: scale(1.05);
+	transition: .25s ease-in-out;
+}
+
+.nav a,
+.nav a:visited,
+.nav a:hover {
+	text-decoration: none;
+	color: var(--fontWhite);
+}
+
+
+
+
+/* HOMEPAGE */ 
+
+.home-hero {
+	background-image: url("images/HomeHero.svg");
+	background-position: center; 
+	background-repeat: repeat; 
+	background-size: cover; 
+	width: ;
+	height: 60rem;
+	color: var(--fontWhite);
+	text-align: center;
+}
+
+.home-hero-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 10em 3em 3em 3em;
+	height: 60vh;
+}
+
+.home-hero-text img {
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 15vh;
+}
+
+.home-hero-text p {
+	font-size: 40px;
+	margin-bottom: 8vh;
+	font-family: 'Zen Tokyo Zoo', cursive;
+}
+
+.home-hero-list {
+	font-size: 20px;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.home-hero-list span {
+	margin: .5em;
+}
+
+
+
+/*  SECTION 2  */
+
+.section-2 {
+	background-color: var(--midGray);
+	padding: 8vh 2vw;
+	height: auto;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+
+}
+
+.work-card {
+	height: 40rem;
+	width: 90vw;
+	margin: 6vh 2vw;
+	overflow: hidden;
+}
+
+.work-card-content-top {
+	color: var(--fontWhite);
+	background-color: rgba(var(--transparentBlack));
+	font-family: segoe ui, sans serif;
+	padding: 1em;
+	width: 90vw;
+}
+
+.work-card-content-top h3 {
+	margin-top: 1em;
+}
+
+.work-card-content-bottom {
+	color: var(--fontWhite);
+	background-color: rgba(var(--transparentBlack));
+	font-family: segoe ui, sans serif;
+	padding: 1em;
+}
+
+.work-card-content-bottom h3 {
+	margin-bottom: 1em;
+}
+
+
+#WhatsCookinApp {
+	background-image: url("images/WhatsCookinApp.svg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 90vw;
+	cursor: pointer;
+}
+
+#HSU {
+	background-image: url("images/PetsOnLaptop.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 90vw;
+	cursor: pointer;
+}
+
+#HappyDogApp {
+	background-image: url("images/HappyDogApp.svg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 90vw;
+	cursor: pointer;
+}
+
+#FTCSmart {
+	background-image: url("images/FTCSmart.svg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 90vw;
+	cursor: pointer;
+}
+
+.coming-soon img {
+	width: 80vw;
+}
+
+
+
+
+
+/*  HOME ABOUT ME  */
+
+.home-about-me {
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	padding: 8vh 3vh;
+	border-top: 1px solid var(--darkGray);
+}
+
+.home-about-me-chunk1 {
+	width: 80vw;
+	padding: 10vw;
+	color: var(--fontWhite);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.home-about-me-chunk1 span {
+	font-size: 60px;
+	margin-bottom: 8vh;
+	font-family: Zen Tokyo Zoo;
+}
+
+.home-about-me-chunk1 p {
+	font-size: 20px;
+	font-family: segoe ui, sans serif;
+	line-height: 2;
+	margin-bottom: 6vh;
+}
+
+.home-about-me-chunk1 button {
+	background-color: var(--backgroundColor);
+	border: 3px solid var(--fontWhite);
+	color: var(--fontWhite);
+	padding: 1em;
+	font-size: 1.5em;
+	cursor: pointer;
+}
+
+.home-about-me-chunk2 {
+	text-align: center;
+}
+.home-about-me-chunk2 img {
+	width: 80vw;
+}
+
+
+
+
+/*  PAGE-FOOTER  */
+
+.page-footer {
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	padding: 4vh;
+	background-color: var(--darkGray);
+	border-top: 1px solid var(--midGray);
+}
+
+.page-footer span {
+	padding: 1em;
+}
+
+
+
+
+
+
+/*  ABOUT */
+
+.about-hero {
+	background-image: url("images/AboutHero.svg");
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	width: 100vw;
+	height: 100vh;
+	color: var(--fontWhite);
+	text-align: center;
+	border-bottom: 1px solid white;
+}
+
+#about-hero-marg-cartoon {
+	float: left;
+	height: 40vh;
+	border-bottom: 1px solid white;
+
+}
+
+
+.about-hero-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 3em;
+	height: 60vh;	
+}
+
+.about-hero-text img {
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 5vh;
+	margin-top: 10vh;
+	cursor: pointer;
+}
+
+.about-hero-text p {
+	font-size: 80px;
+	margin: 10vh 0 2vh 0;
+	font-family: 'Zen Tokyo Zoo', cursive;
+}
+
+.about-welcome {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	gap: 10vh;
+	width: 80vw;
+	color: var(--fontWhite);
+	margin: 10vh auto;
+	
+}
+
+.about-welcome-h1 {
+	font-family: 'Zen Tokyo Zoo', cursive;
+	font-size: 60px;
+	
+}
+
+.about-welcome p {
+	font-size: 25px;
+	font-family: segoe ui, sans serif;
+	text-align: center;
+}
+
+.about-welcome img {
+	width: 50vw;
+}
+
+.about-welcome-view-resume button {
+	font-family: segoe ui, sans serif;
+	cursor: pointer;
+	background-color: var(--backgroundColor);
+	border: 3px solid var(--fontWhite);
+	color: var(--fontWhite);
+	padding: 1rem 2rem;
+	font-size: 3em;
+	cursor: pointer;
+}
+
+.about-welcome-view-resume button:hover {
+	font-family: segoe ui, sans serif;
+	cursor: pointer;
+	background-color: var(--fontWhite);
+	border: 3px solid var(--fontWhite);
+	color: var(--backgroundColor);
+	padding: 1rem 2rem;
+	font-size: 3rem;
+	cursor: pointer;
+}
+
+.about-me-about-me {
+	width: 100vw;
+	padding: 0 10vw;
+	margin: 20vh 0;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-evenly;
+	gap: 10vh;
+	color: var(--fontWhite);
+}
+
+.about-me-about-me-s1 {
+	font-family: 'Zen Tokyo Zoo', cursive;
+	font-size: 60px;
+	text-align: center;
+	margin-left: 10vw;
+}
+
+.about-me-about-me-s2 p {
+	width: 80vw;
+	font-size: 20px;
+	font-family: segoe ui, sans serif;
+	margin-bottom: 2vh;
+}
+
+.about-me-about-me-s2-quote {
+	width: 30vw;
+	padding: 0 5vw ;
+	font-size: 20px;
+	font-family: segoe ui, sans serif;
+	font-style: italic;
+
+}
+
+
+
+/* CONTACT */
+
+
+.contact-hero {
+	/*background-image: url("images/HomeHero.svg");
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover; */
+	width: 100vw;
+	height: 100vh;
+	color: var(--fontWhite);
+	text-align: center;
+}
+
+.contact-hero-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 3em;
+	height: 60vh;	
+}
+
+.contact-hero-text img {
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 15vh;
+	cursor: pointer;
+}
+
+.contact-hero-text p {
+	font-size: 60px;
+	margin-bottom: 2vh;
+	font-family: 'Zen Tokyo Zoo', cursive;
+}
+
+.contact-hero-list {
+	font-size: 25px;
+	margin-top: 10vh;
+	font-family: segoe ui, sans serif; 
+	display: flex;
+	flex-direction: column;
+	gap: 5vh;
+}
+
+#contact-email a {
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 25px;
+	color: var(--fontWhite);
+
+}
+
+.contact-hero-list span {
+	margin: .5em;
+}
+
+#contact-hero-marg-cartoon {
+	float: right;
+	height: 30vh;
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
