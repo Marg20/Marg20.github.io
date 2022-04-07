@@ -511,7 +511,7 @@ body {
 /*  START MOBILE STYLESHEET  */
 
 
-@media only screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
 	body {
 	background-color: var(--backgroundColor);
 	overflow-x: hidden;
