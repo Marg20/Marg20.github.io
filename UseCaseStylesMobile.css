@@ -38,6 +38,28 @@
 	text-align: center;
 }
 
+.usecase-hero-whats-cookin {
+	background-image: url("images/WhatsCookin/Hero_WhatsCookin.svg");
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	width: 100vw;
+	height: 100vh;
+	color: var(--fontWhite);
+	text-align: center;
+}
+
+.usecase-hero-ftc {
+	background-image: url("images/FTC/FTCHero.svg");
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	width: 100vw;
+	height: 100vh;
+	color: var(--fontWhite);
+	text-align: center;
+}
+
 .usecase-hero-text {
 	display: flex;
 	flex-direction: column;
@@ -165,6 +187,7 @@
 .usecase-text-section-text a:hover,
 .usecase-text-section-text a:visited {
 	color: var(--burntOrange);
+	font-weight: 600;
 }
 
 .usecase-image video {
@@ -173,10 +196,55 @@
 }
 
 
+.UpArrow {
+	
+	position: sticky;
+	left: 85vw;
+	top: 90vh;
+	z-index: 2;
+	cursor: pointer;
+}
+
+.UpArrow img {
+	width: 40px;
+	height: 40px;
+}
 
 
+.whats-cookin-demo-button {
+	position: absolute;
+	top: 55vh;
+	left: 40vw;
+	cursor: pointer;
+}
 
+.whats-cookin-demo-button img {
+	width: 100px;
+}
 
+.ftc-demo-button {
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 40vh;
+
+}
+
+.ftc-demo-button img {
+	width: 70vw;
+	cursor: pointer;
+}
+
+.hsu-demo-button {
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 40vh;
+
+}
+
+.hsu-demo-button img {
+	width: 70vw;
+	cursor: pointer;
+}
 
 
 

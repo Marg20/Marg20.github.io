@@ -28,8 +28,6 @@
 	font-family: 'Zen Tokyo Zoo', cursive;
 }
 
-
-
 body {
 	background-color: var(--backgroundColor);
 	overflow-x: hidden;
@@ -39,6 +37,7 @@ body {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 
 /* NAVIGATION */
@@ -186,7 +185,7 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 40vw;
-	cursor: ;
+	cursor: pointer;
 }
 
 #HSU {
@@ -210,7 +209,7 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 40vw;
-	cursor: ;
+	cursor: pointer;
 }
 
 .coming-soon img {
@@ -313,13 +312,17 @@ body {
 	height: 100vh;
 	color: var(--fontWhite);
 	text-align: center;
-	border-bottom: 1px solid white;
+	/*border-bottom: 1px solid white;*/
 }
 
 #about-hero-marg-cartoon {
+	position: absolute;
+	top: 10rem;
+	left: 0;
+	
 	float: left;
-	height: 40vh;
-	border-bottom: 1px solid white;
+	height: 60vh; /* 40 */
+	/*border-bottom: 1px solid white;*/
 }
 
 
@@ -500,3 +503,9 @@ body {
 	border: 2px solid white;
 	margin-top: -20vh;
 }
+
+
+
+
+
+

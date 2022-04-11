@@ -1,9 +1,9 @@
 
 const WhatsCookinclick = document.getElementById("WhatsCookinApp");
 
-/*WhatsCookinclick.onclick = function() {
+WhatsCookinclick.onclick = function() {
 	window.location.replace("whatscookin.html");
-}*/
+}
 
 const HSUclick = document.getElementById("HSU");
 
@@ -15,10 +15,10 @@ HSUclick.onclick = function() {
 
 HappyDogclick.onclick = function() {
 	window.location.replace("happydog.html");
-}
+}*/
 
 const FTCclick = document.getElementById("FTCSmart");
 
 FTCclick.onclick = function() {
 	window.location.replace("ftc.html");
-}*/
+}
