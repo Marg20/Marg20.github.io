@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="314" height="141" viewBox="0 0 314 141">
+  <g id="Demo_Button" data-name="Demo Button" transform="translate(-803 -631)">
+    <g id="Rectangle_476" data-name="Rectangle 476" transform="translate(803 631)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="314" height="141" stroke="none"/>
+      <rect x="0.5" y="0.5" width="313" height="140" fill="none"/>
+    </g>
+    <text id="Demo" transform="translate(901 715)" font-size="40" font-family="Prata-Regular, Prata"><tspan x="0" y="0">Demo</tspan></text>
+  </g>
+</svg>
