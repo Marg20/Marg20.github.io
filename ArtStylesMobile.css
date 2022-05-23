@@ -1,0 +1,295 @@
+/* Variables */
+
+:root {
+	--backgroundColor: #000000; 	/*black*/
+	--transparentBlack: 0,0,0,0.5;
+	--fontWhite: white;
+	--midGray: #4e4e4e;
+	--darkGray: #282828;
+	--burntOrange: #C85E38;
+}
+
+
+
+/* ART HOMEPAGE */ 
+
+.art-hero {
+	background-image: url("images/Art/CycladicArtBlack.svg");
+	background-position: right; 
+	background-repeat: no-repeat; 
+	background-size: contain; 
+	width: 100vw;
+	height: 100vh;
+	color: var(--fontWhite);
+	text-align: center;
+}
+
+.art-hero-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 3em;
+	height: 60vh;	
+}
+
+.art-hero-text img {
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 15vh;
+	cursor: pointer;
+}
+
+.art-hero-text p {
+	font-size: 60px;
+	margin-bottom: 2vh;
+	font-family: 'Zen Tokyo Zoo', cursive;
+}
+
+.art-hero-list {
+	font-size: 25px;
+}
+
+.art-hero-list span {
+	margin: .5em;
+}
+
+
+
+
+/*  ART SECTION 2  */
+
+.art-section-2 {
+	background-color: var(--midGray);
+	padding: 8vh 2vw;
+	height: auto;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+
+}
+
+.art-card {
+	height: 40rem;
+	width: 90vw;
+	margin: 6vh 2vw;
+	overflow: hidden;
+}
+
+.art-card-content-top {
+	color: var(--fontWhite);
+	background-color: rgba(var(--transparentBlack));
+	font-family: segoe ui, sans serif;
+	padding: 1em;
+	width: 90vw;
+}
+
+.art-card-content-top h3 {
+	margin-top: 1em;
+}
+
+.art-card-content-bottom {
+	color: var(--fontWhite);
+	background-color: rgba(var(--transparentBlack));
+	font-family: segoe ui, sans serif;
+	padding: 1em;
+}
+
+.art-card-content-bottom h3 {
+	margin-bottom: 1em;
+}
+
+
+#DigitalArt {
+	background-image: url("images/Art/DigitalArt.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 90vw;
+	cursor: pointer;
+}
+
+#Painting {
+	background-image: url("images/Art/Painting.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 90vw;
+	cursor: pointer;
+}
+
+#Photography {
+	background-image: url("images/Art/Photography.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 90vw;
+	cursor: pointer;
+}
+
+#Recipes {
+	background-image: url("images/Art/Recipes.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 90vw;
+	cursor: pointer;
+}
+
+
+
+/* DIGITAL HOMEPAGE */ 
+
+.digital-hero {
+
+	width: 100vw;
+	height: auto;
+	color: var(--fontWhite);
+	text-align: center;
+}
+
+.digital-hero-img {
+	margin-top: 10em;
+	width: 50%;
+}
+
+.digital-hero-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 3em;
+	height: 60vh;	
+}
+
+.digital-hero-text img {
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 15vh;
+	cursor: pointer;
+}
+
+.digital-hero-text p {
+	font-size: 60px;
+	margin-bottom: 2vh;
+	font-family: 'Zen Tokyo Zoo', cursive;
+}
+
+
+
+
+
+
+/* PAINTING */
+
+.painting-hero {
+	background-image: url("images/Art/Painting/PaintingHeader.jpg");
+	background-position: right; 
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	width: 100vw;
+	height: 100vh;
+	color: var(--fontWhite);
+	text-align: center;
+}
+
+.painting-hero-img {
+	float: right;
+	margin-top: -300px ;
+	margin-right: 2%;
+	width: 30%;
+}
+
+.painting-hero-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 3em;
+	height: 60vh;	
+}
+
+.painting-hero-text img {
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 15vh;
+	cursor: pointer;
+}
+
+.painting-hero-text p {
+	font-size: 60px;
+	margin-bottom: 2vh;
+	font-family: 'Zen Tokyo Zoo', cursive;
+}
+
+
+
+
+
+/*  PHOTOGRAPHY  */ 
+
+.photography-hero {
+
+	width: 100vw;
+	height: 100vh;
+	color: var(--fontWhite);
+	text-align: center;
+}
+
+.photography-hero-img {
+	float: right;
+	margin-top: -300px ;
+	margin-right: 2%;
+	width: 30%;
+}
+
+.photography-hero-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 3em;
+	height: 60vh;	
+}
+
+.photography-hero-text img {
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 15vh;
+	cursor: pointer;
+}
+
+.photography-hero-text p {
+	font-size: 40px;
+	margin-bottom: 2vh;
+	font-family: 'Zen Tokyo Zoo', cursive;
+}
+
+
+
+
+/*  ART SHOWCASE */
+
+.art-showcase {
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	background-color: white;
+	padding: 8em 0 0 0;
+}
+
+.art-showcase-row {
+	max-width: 1300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	row-gap: 8em;
+	margin-bottom: 8em;
+}
+
+.art-showcase-row img {
+
+	max-height: ;
+	max-width: 90vw;
+}
