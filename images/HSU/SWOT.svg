@@ -1,44 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="996" height="763" viewBox="0 0 996 763">
-  <g id="SWOT" transform="translate(-730 -17020)">
-    <g id="Group_43" data-name="Group 43" transform="translate(155 -532)">
-      <rect id="Rectangle_96" data-name="Rectangle 96" width="498" height="311" transform="translate(575 17687)" fill="#b8a131" opacity="0.21"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="887.206" height="645.001" viewBox="0 0 887.206 645.001">
+  <g id="SWOT" transform="translate(-730 -17054.715)">
+    <g id="Group_43" data-name="Group 43" transform="translate(730 17143.313)">
+      <rect id="Rectangle_96" data-name="Rectangle 96" width="444" height="277" transform="translate(0 0.403)" fill="#b8a131" opacity="0.21"/>
       <text id="STRENGTHS_" data-name="STRENGTHS
 
 
-" transform="translate(647 17718)" fill="#707070" font-size="20" font-family="ZenTokyoZoo-Regular, Zen Tokyo Zoo"><tspan x="0" y="19">STRENGTHS</tspan></text>
-      <path id="Path_816" data-name="Path 816" d="M0,0H498V311H0Z" transform="translate(1073 17687)" fill="#f48b7e" opacity="0.21"/>
-      <rect id="Rectangle_97" data-name="Rectangle 97" width="498" height="311" transform="translate(575 17998)" fill="#c4e2d8" opacity="0.56"/>
-      <rect id="Rectangle_98" data-name="Rectangle 98" width="498" height="311" transform="translate(1073 17998)" fill="#fcb117" opacity="0.23"/>
-      <path id="Path_817" data-name="Path 817" d="M146,0c80.634,0,146,59.77,146,133.5S226.634,267,146,267,0,207.23,0,133.5C0,72.968,44.06,21.845,104.7,5.416A158.3,158.3,0,0,1,146,0Z" transform="translate(927 17851)" fill="#fff"/>
+" transform="translate(64 27.403)" fill="#707070" font-size="20" font-family="ZenTokyoZoo-Regular, Zen Tokyo Zoo"><tspan x="0" y="19">STRENGT</tspan></text>
+      <path id="Path_816" data-name="Path 816" d="M0,0H443.6V277.029H0Z" transform="translate(443.603 0)" fill="#f48b7e" opacity="0.21"/>
+      <rect id="Rectangle_97" data-name="Rectangle 97" width="444" height="277" transform="translate(0 277.403)" fill="#c4e2d8" opacity="0.56"/>
+      <rect id="Rectangle_98" data-name="Rectangle 98" width="443" height="277" transform="translate(444 277.403)" fill="#fcb117" opacity="0.23"/>
+      <path id="Path_817" data-name="Path 817" d="M130.052,0C201.878,0,260.1,53.241,260.1,118.918S201.878,237.835,130.052,237.835,0,184.594,0,118.918C0,65,39.247,19.459,93.266,4.824A141.011,141.011,0,0,1,130.052,0Z" transform="translate(313.551 146.086)" fill="#fff"/>
       <text id="WEAKNESSES_" data-name="WEAKNESSES
 
 
-" transform="translate(1258 17718)" font-size="20" font-family="ZenTokyoZoo-Regular, Zen Tokyo Zoo"><tspan x="0" y="19">WEAKNESSES</tspan></text>
+" transform="translate(608 27.403)" font-size="20" font-family="ZenTokyoZoo-Regular, Zen Tokyo Zoo"><tspan x="0" y="19">WEAKNESS</tspan></text>
       <text id="OPPORTUNITIES_" data-name="OPPORTUNITIES
-" transform="translate(647 18267)" fill="#707070" font-size="20" font-family="ZenTokyoZoo-Regular, Zen Tokyo Zoo"><tspan x="0" y="19">OPPORTUNITIES</tspan></text>
+" transform="translate(64 516.403)" fill="#707070" font-size="20" font-family="ZenTokyoZoo-Regular, Zen Tokyo Zoo"><tspan x="0" y="19">OPPORTUNITIE</tspan></text>
       <text id="THREATS_" data-name="THREATS
-" transform="translate(1386 18286)" fill="#707070" font-size="20" font-family="ZenTokyoZoo-Regular, Zen Tokyo Zoo"><tspan x="0" y="0">THREATS</tspan><tspan x="0" y="24"></tspan></text>
-      <text id="S" transform="translate(1003 17970)" fill="#b8a131" font-size="60" font-family="ZenTokyoZoo-Regular, Zen Tokyo Zoo"><tspan x="0" y="0">S</tspan></text>
-      <text id="W" transform="translate(1092 17970)" fill="#f27767" font-size="60" font-family="ZenTokyoZoo-Regular, Zen Tokyo Zoo"><tspan x="0" y="0">W</tspan></text>
-      <text id="O" transform="translate(1003 18063)" fill="#81c2ac" font-size="60" font-family="ZenTokyoZoo-Regular, Zen Tokyo Zoo"><tspan x="0" y="0">O</tspan></text>
-      <text id="T" transform="translate(1104 18063)" fill="#fcb117" font-size="60" font-family="ZenTokyoZoo-Regular, Zen Tokyo Zoo"><tspan x="0" y="0">T</tspan></text>
+" transform="translate(722 532.403)" fill="#707070" font-size="17" font-family="ZenTokyoZoo-Regular, Zen Tokyo Zoo"><tspan x="0" y="0">THREATS</tspan><tspan x="0" y="20"></tspan></text>
+      <text id="S" transform="translate(381 251.403)" fill="#b8a131" font-size="53" font-family="ZenTokyoZoo-Regular, Zen Tokyo Zoo"><tspan x="0" y="0">S</tspan></text>
+      <text id="W" transform="translate(461 251.403)" fill="#f27767" font-size="53" font-family="ZenTokyoZoo-Regular, Zen Tokyo Zoo"><tspan x="0" y="0">W</tspan></text>
+      <text id="O" transform="translate(381 334.403)" fill="#81c2ac" font-size="53" font-family="ZenTokyoZoo-Regular, Zen Tokyo Zoo"><tspan x="0" y="0">O</tspan></text>
+      <text id="T" transform="translate(471 334.403)" fill="#fcb117" font-size="53" font-family="ZenTokyoZoo-Regular, Zen Tokyo Zoo"><tspan x="0" y="0">T</tspan></text>
       <text id="_Highlight_success_stories._The_website_could_use_the_benefits_of_owning_a_pet._Show_impact_data_to_persuade_people_to_get_involved._" data-name="•   Highlight success stories.
 •   The website could use the 
-•   benefits of owning a pet.
+  benefits of owning a pet.
 •   Show impact data to persuade 
-•   people to get involved.
-" transform="translate(647 18100)" fill="#707070" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0" xml:space="preserve">•   Highlight success stories.</tspan><tspan x="0" y="27" xml:space="preserve">•   The website could use the </tspan><tspan x="0" y="54" xml:space="preserve">•   benefits of owning a pet.</tspan><tspan x="0" y="81" xml:space="preserve">•   Show impact data to persuade </tspan><tspan x="0" y="108" xml:space="preserve">•   people to get involved.</tspan><tspan x="0" y="135"></tspan></text>
+   people to get involved.
+" transform="translate(64 366.403)" fill="#707070" font-size="17" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0" xml:space="preserve">•   Highlight success stories.</tspan><tspan x="0" y="22" xml:space="preserve">•   The website could use the </tspan><tspan x="0" y="44" xml:space="preserve">  benefits of owning a pet.</tspan><tspan x="0" y="66" xml:space="preserve">•   Show impact data to persuade </tspan><tspan x="0" y="88" xml:space="preserve">   people to get involved.</tspan><tspan x="0" y="110"></tspan></text>
       <text id="Two_main_competitors_have_more_recognition._" data-name="Two main competitors have more recognition.
-" transform="translate(1227 18078)" fill="#707070" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="0" y="22">Two main competitors have more </tspan><tspan x="0" y="49">recognition.</tspan><tspan x="0" y="76"></tspan></text>
+" transform="translate(581 348.403)" fill="#707070" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="0" y="22">Two main competitors have </tspan><tspan x="0" y="49">more recognition.</tspan><tspan x="0" y="76"></tspan></text>
       <text id="_Responsive_design_Events_Adopt_and_Donation_page_are_easy_to_navigate._Colors_are_inviting_accessible_" data-name="•   Responsive design
 •   Events, Adopt, and Donation page are easy to navigate.
 •   Colors are inviting &amp; accessible
-" transform="translate(647 17781)" fill="#707070" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="0" y="22" xml:space="preserve">•   Responsive design</tspan><tspan x="0" y="49" xml:space="preserve">•   Events, Adopt, and Donation </tspan><tspan x="0" y="76">page are easy to navigate.</tspan><tspan x="0" y="103" xml:space="preserve">•   Colors are inviting &amp; accessible</tspan><tspan x="0" y="130"></tspan></text>
+" transform="translate(64 83.403)" fill="#707070" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="0" y="22" xml:space="preserve">•   Responsive design</tspan><tspan x="0" y="49" xml:space="preserve">•   Events, Adopt, and </tspan><tspan x="0" y="76">Donation page are easy to </tspan><tspan x="0" y="103">navigate.</tspan><tspan x="0" y="130" xml:space="preserve">•   Colors are inviting &amp; </tspan><tspan x="0" y="157">accessible</tspan><tspan x="0" y="184"></tspan></text>
       <text id="_The_services_available_are_not_clear_to_the_website._It_lacks_info_on_which_animals_have_been_adopted._It_could_have_more_pictures_of_animals._" data-name="•   The services available are not clear to the website.
 •   It lacks info on which animals have been adopted.
 •   It could have more pictures of animals.
-" transform="translate(1227 17781)" fill="#707070" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="0" y="22" xml:space="preserve">•   The services available are not </tspan><tspan x="0" y="49">clear to the website.</tspan><tspan x="0" y="76" xml:space="preserve">•   It lacks info on which animals </tspan><tspan x="0" y="103">have been adopted.</tspan><tspan x="0" y="130" xml:space="preserve">•   It could have more pictures of </tspan><tspan x="0" y="157">animals.</tspan><tspan x="0" y="184"></tspan></text>
+" transform="translate(581 83.403)" fill="#707070" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="0" y="22" xml:space="preserve">•   The services available are </tspan><tspan x="0" y="49">not clear to the website.</tspan><tspan x="0" y="76" xml:space="preserve">•   It lacks info on which </tspan><tspan x="0" y="103">animals have been adopted.</tspan><tspan x="0" y="130" xml:space="preserve">•   It could have more </tspan><tspan x="0" y="157">pictures of animals.</tspan><tspan x="0" y="184"></tspan></text>
     </g>
-    <text id="SWOT_Analysis" data-name="SWOT Analysis" transform="translate(1051 17077)" font-size="53" font-family="Playfair Display"><tspan x="0" y="0">SWOT Analysis</tspan></text>
+    <text id="SWOT_Analysis" data-name="SWOT Analysis" transform="translate(730 17097.715)" font-size="40" font-family="Playfair Display"><tspan x="0" y="0">SWOT Analysis</tspan></text>
   </g>
 </svg>
